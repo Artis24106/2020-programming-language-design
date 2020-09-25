@@ -5,15 +5,12 @@ Programming Language Design Assignment 01
 
 [HackMD Link](https://hackmd.io/@C5qogZpXS6m0aedcVROJ6A/rkPbHEsHw)
 
-:::info
-Please hand-in your answers on new ee-class before 10/1 00:00 and
-make sure you’re following these rules or you will get penalty:
+> Please hand-in your answers on new ee-class before 10/1 00:00 and
+> make sure you’re following these rules or you will get penalty:
 
-- Submit your answers in a single pdf file. (only pdf files will be accepted)
-- Name your pdf file by your student ID#. (ex. 108522009.pdf)
-- Use monospace-style font to format all the program codes you wrote and DO NOT use code screenshots as your answer.
-
-:::
+> - Submit your answers in a single pdf file. (only pdf files will be accepted)
+> - Name your pdf file by your student ID#. (ex. 108522009.pdf)
+> - Use monospace-style font to format all the program codes you wrote and DO NOT use code screenshots as your answer.
 
 ## Dynamic and Lexical Binding (30pt)
 
@@ -35,12 +32,10 @@ b.
       (funcall foo x))))
 ~~~
 
-:::info
-* lexical -> `(setq-local lexical-binding t)`
-* dynamic -> `(setq-local lexical-binding nil)`
-* [Emacs Lisp Basics](http://ergoemacs.org/emacs/elisp_basics.html)
-* [Try It Online](https://tio.run)
-:::
+> * lexical -> `(setq-local lexical-binding t)`
+> * dynamic -> `(setq-local lexical-binding nil)`
+> * [Emacs Lisp Basics](http://ergoemacs.org/emacs/elisp_basics.html)
+> * [Try It Online](https://tio.run)
 
 ### Answer
 
@@ -149,12 +144,11 @@ c. 6,9,9
 ~~~
 a. b. c. are three kinds of outputs using **different parameter-passing method**.
 What kind of method do each output use?
-:::info
-There are three methods for this question:
-1. call-by-value
-2. call-by-reference
-3. call-by-name
-:::
+
+> There are three methods for this question:
+> 1. call-by-value
+> 2. call-by-reference
+> 3. call-by-name
 
 ### Answer
 - a. call-by-name
@@ -165,9 +159,9 @@ There are three methods for this question:
 ### Question
 The following code shows a common pattern using `goto` to handling errors in C lang.  
 There is a modern common language construct exists and famous for error handling.
-:::info
-You may rewrite the code in pesudo code or any language provides this feature.
-:::
+
+> You may rewrite the code in pesudo code or any language provides this feature.
+
 ~~~c
 int foo(int bar)
 {
