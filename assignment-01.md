@@ -7,7 +7,6 @@ Programming Language Design Assignment 01
 
 > Please hand-in your answers on new ee-class before 10/1 00:00 and
 > make sure you’re following these rules or you will get penalty:
-
 > - Submit your answers in a single pdf file. (only pdf files will be accepted)
 > - Name your pdf file by your student ID#. (ex. 108522009.pdf)
 > - Use monospace-style font to format all the program codes you wrote and DO NOT use code screenshots as your answer.
